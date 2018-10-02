@@ -6,10 +6,14 @@ import TodoAdder from './todo-adder';
 const TodoApp = () => (
     <div>
         <h1>ToDo works!</h1>
-
-        <TodoAdder />
-
-        <TodoList />
+        <div className="row">
+            <div className="col-6">
+                <TodoAdder />
+            </div>
+            <div className="col-6">
+                <TodoList />
+            </div>
+        </div>
     </div>
 );
 
